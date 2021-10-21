@@ -3,10 +3,10 @@
 
 
 @font-face {
-    font-family: 'novelablack';
+    font-family: 'novela';
     src: url('fonts/novela-black-webfont.woff2') format('woff2'),
          url('fonts/novela-black-webfont.woff') format('woff');
-    font-weight: normal;
+    font-weight: 900;
     font-style: normal;
 
 }
@@ -15,11 +15,11 @@
 
 
 @font-face {
-    font-family: 'novelablack_italic';
+    font-family: 'novela';
     src: url('fonts/novela-blackitalic-webfont.woff2') format('woff2'),
          url('fonts/novela-blackitalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    font-weight: 900;
+    font-style: italic;
 
 }
 
@@ -27,10 +27,10 @@
 
 
 @font-face {
-    font-family: 'novelabold';
+    font-family: 'novela';
     src: url('fonts/novela-bold-webfont.woff2') format('woff2'),
          url('fonts/novela-bold-webfont.woff') format('woff');
-    font-weight: normal;
+    font-weight: bold;
     font-style: normal;
 
 }
@@ -39,11 +39,11 @@
 
 
 @font-face {
-    font-family: 'novelabold_italic';
+    font-family: 'novela';
     src: url('fonts/novela-bolditalic-webfont.woff2') format('woff2'),
          url('fonts/novela-bolditalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    font-weight: bold;
+    font-style: italic;
 
 }
 
@@ -51,11 +51,11 @@
 
 
 @font-face {
-    font-family: 'noveladisplay_italic';
+    font-family: 'novela';
     src: url('fonts/novela-displayitalic-webfont.woff2') format('woff2'),
          url('fonts/novela-displayitalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    font-weight: 100;
+    font-style: italic;
 
 }
 
@@ -63,10 +63,10 @@
 
 
 @font-face {
-    font-family: 'noveladisplay_regular';
+    font-family: 'novela';
     src: url('fonts/novela-displayregular-webfont.woff2') format('woff2'),
          url('fonts/novela-displayregular-webfont.woff') format('woff');
-    font-weight: normal;
+    font-weight: 100;
     font-style: normal;
 
 }
@@ -75,10 +75,10 @@
 
 
 @font-face {
-    font-family: 'novelaregular';
+    font-family: 'novela';
     src: url('fonts/novela-regular-webfont.woff2') format('woff2'),
          url('fonts/novela-regular-webfont.woff') format('woff');
-    font-weight: normal;
+    font-weight: 200;
     font-style: normal;
 
 }
@@ -87,11 +87,11 @@
 
 
 @font-face {
-    font-family: 'novelaregular_italic';
+    font-family: 'novela';
     src: url('fonts/novela-regularitalic-webfont.woff2') format('woff2'),
          url('fonts/novela-regularitalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    font-weight: 200;
+    font-style: italic;
 
 }
 
@@ -99,10 +99,10 @@
 
 
 @font-face {
-    font-family: 'novelasemibold';
+    font-family: 'novela';
     src: url('fonts/novela-semibold-webfont.woff2') format('woff2'),
          url('fonts/novela-semibold-webfont.woff') format('woff');
-    font-weight: normal;
+    font-weight: 600;
     font-style: normal;
 
 }
@@ -111,25 +111,31 @@
 
 
 @font-face {
-    font-family: 'novelasemibold_italic';
+    font-family: 'novela';
     src: url('novela-semibolditalic-webfont.woff2') format('woff2'),
          url('novela-semibolditalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    font-weight: 600;
+    font-style: italic;
 
 }
+
+
+
+body{
+    font-family: 'novela';
+}
 .uno{
-    font-family: novelasemibold_italic;
+    font-weight: 900;
 }
 .dos{
-    font-family: novelaregular;
+    font-weight: bold;
 }
 .tres{
-    font-family: novelasemibold;
+    font-weight: 100;
 }
 .cuatro{
-    font-family: novelablack_italic;
+    font-weight: 600;
 }
 .cinco{
-    font-family: noveladisplay_italic;
+    font-weight: 200;
 }
